@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	targetURL, err := url.Parse("http://retendo.online")
+	targetURL, err := url.Parse("https://nextendo.online")
 	if err != nil {
 		log.Fatal(err)
 	}
